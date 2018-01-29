@@ -8,8 +8,16 @@ namespace Texas_Hold_em
 {
     class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
         }
     }
+
+    internal enum Suit
+    {
+        Spades,
+        Clubs,
+        Hearts,
+        Diamonds
+    };
 }
